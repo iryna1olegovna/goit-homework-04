@@ -179,8 +179,14 @@ address {
 
 /* --------HERO------- */
 .hero-section {
-    background-color: #2E2F42;
     padding: 188px 0;
+    background-image: linear-gradient
+        (rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)), 
+        url(../images/people-office\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 1440px;
 }
 
 .hero-page{
@@ -216,6 +222,7 @@ address {
     border:none; 
     transition: background-color .25s ease-out;
     min-width: 169px;
+    
 
 }
 
@@ -464,7 +471,6 @@ address {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.hero-section {background: #2E2F42;}
 
 .button {
     background: #4D5AE5;
