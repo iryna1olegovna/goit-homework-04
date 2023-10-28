@@ -101,7 +101,7 @@ button {
     position: relative;
 }
 
-.menu-list-link .menu-start::after {
+.menu-list-link.menu-start::after {
     content: "";
     position: absolute;
     left: 0;
