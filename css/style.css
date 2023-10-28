@@ -96,8 +96,8 @@ button {
     color: #404bbf;
 }
 
-.menu-start {
-    color:#404BBF;
+.menu-list-item.menu-start {
+    color:#404bbf;
     position: relative;
 }
 
@@ -111,6 +111,10 @@ button {
     border-radius: 2px;
     background-color: #404BBF;
     color: #404bbf;
+}
+
+.menu-list-link.menu-start::after {
+height: 4px;
 }
 
 .menu-list-link {
@@ -188,6 +192,7 @@ address {
     line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #434455;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list{
@@ -198,12 +203,12 @@ address {
     margin-right: 0;
 }
 
-.contacts-email {
-    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.post {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-tel {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+.tel {
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts:hover,
