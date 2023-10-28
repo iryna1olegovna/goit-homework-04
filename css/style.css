@@ -185,7 +185,9 @@ address {
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
+    margin: 0 auto;
+    padding: 188px 0; 
 }
 
 .hero-page{
