@@ -558,6 +558,11 @@ address {
     color: #F4F4FD;
 }
 
+.container-footer {
+    display: flex; 
+    align-items: baseline;
+}
+
 .text-footer{
     display: flex;
     font-size: 16px;
