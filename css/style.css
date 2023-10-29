@@ -563,6 +563,10 @@ address {
     align-items: baseline;
 }
 
+.logo-footer-container {
+    margin-right: 120px;
+}
+
 .text-footer{
     display: flex;
     font-size: 16px;
