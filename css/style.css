@@ -105,10 +105,6 @@ button {
 }
 
 
-.menu-start {
-    color:#404bbf;
-    position: relative;
-}
 
 .menu-list-link.menu-start::after {
 height: 4px;
@@ -179,6 +175,11 @@ address {
 .menu-list-link:hover,
 .menu-list-link:focus {
     color: #404bbf;
+}
+
+.menu-start {
+    color:#404bbf;
+    position: relative;
 }
 
 .contacts {
