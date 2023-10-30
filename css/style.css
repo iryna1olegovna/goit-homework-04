@@ -92,10 +92,6 @@ button {
 }
 
 
-.menu-start {
-    color:#404bbf;
-    position: relative;
-}
 
 .menu-list-link.menu-start::after {
     content: "";
@@ -106,6 +102,12 @@ button {
     height: 4px;
     border-radius: 2px;
     background-color: #404BBF;
+}
+
+
+.menu-start {
+    color:#404bbf;
+    position: relative;
 }
 
 .menu-list-link.menu-start::after {
