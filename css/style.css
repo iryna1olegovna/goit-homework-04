@@ -408,7 +408,7 @@ address {
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding: 8px 16px 0;
+    margin: 8px 16px 0;
 }
 
 .socail-net-item {
